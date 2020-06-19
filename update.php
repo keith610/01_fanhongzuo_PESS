@@ -293,7 +293,7 @@ $mysqli->close();
     
     <br><br><br><br><br><br><br><br><br><br>
 <footer>
-    <p>&copy;&nbsp;Copyright&nbsp;2019&nbsp;<strong>POLICE EMERGENCY SERVICE SYSTEM</strong> &nbsp;All rights reserved&nbsp;</p> 
+    <p>&copy;&nbsp;Copyright&nbsp;2020&nbsp;<strong>POLICE EMERGENCY SERVICE SYSTEM</strong> &nbsp;All rights reserved&nbsp;</p> 
 </footer>
     
 </body>
