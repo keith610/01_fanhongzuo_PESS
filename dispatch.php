@@ -2,7 +2,6 @@
 <html>
 <head>
      <style>
-        
         table#t01 tr:nth-child(even) {
   background-color: #eee;
 }
@@ -17,7 +16,9 @@ table#t01 th {
 }
         table#t01 {
   width: 50%;    
-
+border-style: solid;
+            padding: 5.5px;
+  
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
             opacity: 1;
             
