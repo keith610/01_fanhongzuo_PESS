@@ -58,6 +58,14 @@ return false;
 		}
 	}
         
+        //true
+        
+        /* <tr>
+                    <td width="40%"><b>Contact Number</b></td>
+                    <td width="40%"><input id="contactNo" name="contactNo" type="tel" size="8" placeholder="8 digit numbers"pattern=".{8}" required></td>
+                    </tr>
+                    */
+        
 </script> 
 
     
@@ -108,11 +116,11 @@ die("Cannot run SQL command: ".$stmt->orrno);
             <table id="t01" width="50%" border="0" align="center" cellpadding="5" cellspacing="5">
                 <tr>
                     <td width="40%"><b>Caller's Name</b></td>
-                    <td width="40%"><input type="text" name="callerName" id="callerName" maxlength = "40" required></td>
+                    <td width="40%"><input type="text" name="callerName" id="callerName" pattern="[A-Za-z\s]{0,}" maxlength = "40" required></td>
                     </tr>
                 <tr>
                     <td width="40%"><b>Contact Number</b></td>
-                    <td width="40%"><input id="contactNo" name="contactNo" type="tel" size="8" pattern=".{8}" required></td>
+                    <td width="40%"><input id="contactNo" name="contactNo" type="tel" size="8" placeholder="8 digit numbers"pattern=".{8}" required></td>
                     </tr>
                 <tr>
                     <td width="40%"><b>Location</b></td>
